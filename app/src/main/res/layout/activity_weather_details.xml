@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="55dp"
+        android:text="Weather in "
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:drawableLeft="@drawable/sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvLocation"
+        android:layout_marginTop="107dp"
+        android:text="21.3 C"
+        android:textSize="20sp"/>/>
+
+
+    <TextView
+        android:id="@+id/tvDisc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvLocation"
+        android:layout_marginTop="141dp"
+        android:text="Discription" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvLocation"
+        android:layout_marginTop="172dp"
+        android:text="2017/02/20 12:29" />
+
+    <TableLayout
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/txWind1"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:text="Wind"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/txWind2"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18dp"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/txCloudiness"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:text="Cloudiness"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/txCloudiness2"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18dp"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/txPressure"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:text="Pressure"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/txPressure2"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18dp"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/txHumidity"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:text="Humidity"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/txHumidity2"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18dp"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/txSunrise"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:text="Sunrise"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/txSunrise2"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18dp"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/txSunset"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:text="Sunset"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/txSunset2"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18dp"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/txCoord"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:text="Geo coords"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/txCoord2"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18dp"
+
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
